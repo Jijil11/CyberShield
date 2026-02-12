@@ -1,0 +1,166 @@
+
+body {
+background: linear-gradient(135deg, #2c3e50, #000000);
+/* background: linear-gradient(135deg, #0f2027, #203a43, #000000); */
+}
+
+
+.dashboard-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: transparent;
+  min-height: 100vh;
+}
+.dashboard-container h1{
+  color: white;
+}
+
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: black;
+}
+
+.card {
+  flex: 1 1 200px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.quick-actions h2 {
+  margin-top: 30px;
+  color: white;
+}
+
+.action-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.action-btn.scan {
+  background-color: #2980b9;
+}
+
+.action-btn.fix {
+  background-color: #27ae60;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background-color: #e74c3c;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.threats-table, .scans-table{
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+
+.scans-table th, .scans-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+
+.threats-summary h2{
+  color: white;
+}
+.last-scans h2{
+  color: white;
+}
+
+.threats-table th, .threats-table td{
+  color: rgb(0, 0, 0);
+}
+thead {
+  padding: 200px;
+}
+
+.severity.low { color: #68ea9e; }
+.severity.medium { color: #f39c12; }
+.severity.high { color: #e74c3c; }
+
+.threat-types h2{
+  margin-top: 30px;
+  color: white;
+}
+
+.threat-type-bar{
+  margin-bottom: 15px;
+}
+.threat-type-bar span {
+  color: white;
+}
+
+.threat-type-bar span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.bar-bg {
+  width: 100%;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #e74c3c;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.5s ease-in-out;
+}
+
+.security-tips {
+  margin-top: 30px;
+}
+.security-tips h2{
+  color:white;
+
+}
+
+.tips-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+  color: black;
+}
+
+.tip-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
