@@ -1,6 +1,6 @@
 import { NavLink, useNavigate, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
-import "../Styles/Navbar.css";
+import "../styles/Navbar.css";
 import { getCurrentUser, logoutUser } from "../utils/planUtils";
 
 const Navbar = () => {
