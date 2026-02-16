@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { SecurityContext } from "../Context/SecurityContext";
-import "../Styles/scan.css";
+import "../Styles/Scan.css";
 import { getCurrentUser } from "../utils/planUtils";
 
 const Scan = () => {
