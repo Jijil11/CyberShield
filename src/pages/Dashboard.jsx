@@ -1,5 +1,5 @@
 import React, { useContext, useState, useEffect } from "react";
-import "../styles/Dashboard.css";
+import "../Styles/Dashboard.css";
 import { SecurityContext } from "../Context/SecurityContext";
 
 const Dashboard = () => {

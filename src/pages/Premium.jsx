@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/Premium.css";
+import "../Styles/Premium.css";
 import {
   getCurrentUser,
   setCurrentUser,

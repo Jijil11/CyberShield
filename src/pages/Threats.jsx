@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 import { SecurityContext } from "../Context/SecurityContext";
-import "../styles/Threats.css";
+import "../Styles/Threats.css";
 
 const Threats = () => {
   const { threats, clearThreats } = useContext(SecurityContext);
